@@ -1,0 +1,38 @@
+LoginPage.aspx 
+Code:
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" 
+Inherits="Bank.LoginPage" %> 
+ 
+<!DOCTYPE html> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head runat="server"> 
+    <title></title> 
+    <style type="text/css">         .auto-style1 {             text-align: center; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <form id="form1" runat="server"> 
+        <div class="auto-style1"> 
+            <strong>Login<br /> 
+            <br /> 
+            <asp:Label ID="Label1" runat="server" Text="UserName"></asp:Label> 
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox> 
+            <br /> 
+            <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label> 
+            <input id="Password1" type="password" /><br /> 
+            <asp:Button ID="Button1" runat="server" Text="Login" 
+OnClick="Button1_Click" /> 
+            <br /> 
+            <br /> 
+            <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="Blue" 
+NavigateUrl="~/Register1.aspx">Register here</asp:HyperLink> 
+            <br /> 
+            <asp:Label ID="Label3" runat="server"></asp:Label> 
+            </strong> 
+        </div> 
+    </form> 
+</body> 
+</html> 
+ 
